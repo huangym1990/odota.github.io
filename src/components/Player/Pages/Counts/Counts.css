@@ -1,0 +1,12 @@
+.countTable {
+  flex-grow: 1;
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.countsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
