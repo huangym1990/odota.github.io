@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+- '8.0.0'
+notifications:
+  email:
+  - howardc93@gmail.com
+  - aqc2109@columbia.edu
+  - mjr127@case.edu
+script:
+- npm run build
+deploy:
+  provider: script
+  skip_cleanup: true
+  on:
+    branch: production
+  script: bash scripts/deploy.sh
+# blocklist
+branches:
+  except:
+  - l10n_master

@@ -1,0 +1,12 @@
+@import "../palette.css";
+
+.percentContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
